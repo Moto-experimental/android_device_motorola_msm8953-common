@@ -42,8 +42,7 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libvolumelistener \
-    tinymix
+    libvolumelistener
 
 # Audio Policy
 PRODUCT_COPY_FILES += \
