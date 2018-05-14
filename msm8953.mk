@@ -49,7 +49,6 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libvolumelistener \
-    tinymix \
     libshims_camera
 
 # Audio Policy
