@@ -15,8 +15,6 @@
 
 COMMON_PATH := device/motorola/msm8953-common
 
-BOARD_VENDOR := motorola
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
