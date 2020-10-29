@@ -45,7 +45,6 @@ BOARD_SUPPORTS_SOUND_TRIGGER_HAL := true
 DTS_CODEC_M_ := true
 MM_AUDIO_ENABLED_FTM := true
 MM_AUDIO_ENABLED_SAFX := true
-TARGET_USES_QCOM_MM_AUDIO := true
 TARGET_EXCLUDES_AUDIOFX := true
 
 # Audio Features
@@ -131,7 +130,6 @@ TARGET_FS_CONFIG_GEN := \
     $(COMMON_PATH)/configs/mot_aids.fs
 
 # Kernel
-TARGET_COMPILE_WITH_MSM_KERNEL := true
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=30 msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlycon=msm_hsl_uart,0x78B0000 vmalloc=400M
 BOARD_KERNEL_CMDLINE += loop.max_part=7
 BOARD_KERNEL_BASE := 0x80000000
