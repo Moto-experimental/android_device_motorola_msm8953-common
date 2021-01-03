@@ -32,7 +32,9 @@ PRODUCT_COMPRESSED_APEX := false
 COMMON_PATH := device/motorola/msm8953-common
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    $(COMMON_PATH) \
+    hardware/motorola
 
 # Audio
 PRODUCT_PACKAGES += \
