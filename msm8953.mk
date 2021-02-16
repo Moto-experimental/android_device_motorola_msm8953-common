@@ -40,8 +40,8 @@ PRODUCT_COMPRESSED_APEX := false
 PRODUCT_PACKAGES += \
     audio.primary.msm8953 \
     android.hardware.audio.service \
-    android.hardware.audio@6.0-impl:32 \
-    android.hardware.audio.effect@6.0-impl:32 \
+    android.hardware.audio@7.0-impl:32 \
+    android.hardware.audio.effect@7.0-impl:32 \
     android.hardware.soundtrigger@2.2-impl:32 \
     audio.r_submix.default \
     audio.usb.default \
