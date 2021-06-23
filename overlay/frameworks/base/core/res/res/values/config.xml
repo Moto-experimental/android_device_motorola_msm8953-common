@@ -487,4 +487,8 @@
          manager will disable alpha trasformation in animations where not
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
+
+    <!-- Whether to clip notification contents with a rounded rectangle. Might be expensive on
+         certain GPU's and thus can be turned off with only minimal visual impact. -->
+    <bool name="config_notifications_round_rect_clipping">false</bool>
 </resources>
