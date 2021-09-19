@@ -203,7 +203,6 @@ TARGET_LD_SHIM_LIBS := \
 	/vendor/lib/libmot_gpu_mapper.so | libgui_shim_vendor.so
 
 # Wifi
-BOARD_HAS_QCOM_WLAN              := true
 BOARD_WLAN_DEVICE                := qcwcn
 BOARD_HOSTAPD_DRIVER             := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB        := lib_driver_cmd_qcwcn
