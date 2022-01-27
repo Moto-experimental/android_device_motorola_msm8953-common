@@ -86,8 +86,7 @@ PRODUCT_PACKAGES += \
     libbson.vendor \
     libxml2 \
     libwui \
-    libbson.vendor \
-    Snap
+    libbson.vendor
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
