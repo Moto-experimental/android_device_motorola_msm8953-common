@@ -171,10 +171,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0 \
     android.hardware.gatekeeper@1.0.vendor
 
-# HW crypto
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
-
 # health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
