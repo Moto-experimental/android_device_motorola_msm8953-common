@@ -407,25 +407,25 @@
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 0,
+      "Duration": 58,
       "Value": "1401600"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 0,
+      "Duration": 58,
       "Value": "1401600"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "TASchedtuneBoost",
-      "Duration": 0,
+      "Duration": 58,
       "Value": "15"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "SchedBoost",
-      "Duration": 0,
+      "Duration": 58,
       "Value": "2"
     },
     {
