@@ -5147,6 +5147,9 @@ case "$target" in
      ;;
 esac
 
+# Tune task scheduler to prefer idle cpus to place task
+sysctl -w kernel.sched_prefer_idle=1
+
 # Tune task scheduler to reduce possibility to pick some heavy task
 # to the same cpu with ui-threads
 sysctl -w kernel.sched_spill_load=85
