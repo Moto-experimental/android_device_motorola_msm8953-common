@@ -5147,6 +5147,10 @@ case "$target" in
      ;;
 esac
 
+# Tune task scheduler to reduce possibility to pick some heavy task
+# to the same cpu with ui-threads
+sysctl -w kernel.sched_spill_load=85
+
 # Limit CPU and IO resources for background tasks
 echo 102 > /dev/cpuctl/background/cpu.shares
 echo 100 > /dev/blkio/background/blkio.weight
