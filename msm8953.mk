@@ -439,7 +439,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    libstdc++.vendor
+    libstdc++_vendor
 
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
 
