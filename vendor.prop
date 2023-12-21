@@ -58,7 +58,6 @@ debug.hwui.use_buffer_age=false
 debug.cpurend.vsync=false
 
 # Perf
-ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf.scroll_opt=true
 
 # Radio
