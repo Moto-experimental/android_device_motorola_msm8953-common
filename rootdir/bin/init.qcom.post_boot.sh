@@ -5146,3 +5146,6 @@ case "$target" in
         echo 5120 > /proc/sys/vm/min_free_kbytes
      ;;
 esac
+
+# Limit resources for dex2oat
+echo 102 > /dev/cpuctl/dex2oat/cpu.shares
