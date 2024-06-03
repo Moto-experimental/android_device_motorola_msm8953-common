@@ -24,10 +24,6 @@ $(call inherit-product, vendor/motorola/msm8953-common/msm8953-common-vendor.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
-# Disable APEX compression
-# Keep this after including updatable_apex.mk
-PRODUCT_COMPRESSED_APEX := false
-
 # Common Tree Path
 COMMON_PATH := device/motorola/msm8953-common
 
