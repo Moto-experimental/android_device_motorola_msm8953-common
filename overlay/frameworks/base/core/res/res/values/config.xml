@@ -470,6 +470,10 @@
         <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
     </string-array>
 
+    <!-- List of comma separated package names for which we the system will not show crash, ANR,
+         etc. dialogs. -->
+    <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
+
     <!-- Enable LiveDisplay -->
     <bool name="config_liveDisplayAvailable">true</bool>
 
