@@ -109,6 +109,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
     libdisplayconfig \
+    libion.vendor \
     libqdMetaData.system \
     libvulkan \
     libtinyxml \
@@ -178,6 +179,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0 \
+    libhidlmemory.vendor \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
@@ -381,7 +383,8 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.1.vendor \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
-    CarrierConfigOverlay
+    CarrierConfigOverlay \
+    libsqlite.vendor
 
 # Telephony
 PRODUCT_PACKAGES += \
