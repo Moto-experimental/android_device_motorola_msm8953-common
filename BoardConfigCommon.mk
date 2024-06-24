@@ -135,8 +135,6 @@ TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 TARGET_KERNEL_LLVM_BINUTILS := false
-TARGET_KERNEL_CLANG_VERSION := r416183b
-TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
