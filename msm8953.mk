@@ -399,6 +399,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# Touch
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.msm8953
+
 # Seccomp policy
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
